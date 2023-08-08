@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>victor website</title>
+  <style>
+      body{
+        font-family: arial;
+        background-color: darkblue;
+      }
+      .logint{
+        background-color: lightblue;
+        position: absolute;
+        padding: 50px;
+        border-radius: 10px;
+      }
+      h1{
+        color: white;
+      }
+      button{
+        color: white;
+        background-color: dodgerblue;
+        width: 100%;
+      }
+      button:hover{
+        background-color: deepskyblue;
+        cursor: pointer;
+      }
+  </style>
+</head>
+<body>
+    <div class="logint">
+        <h1>login</h1>
+        <input type="text" placeholder="nome">
+        <br><br>
+        <input type="password" placeholder="senha">
+        <br><br>
+        <button>entrar</button>
+    </div>
+</body>
+</html>
